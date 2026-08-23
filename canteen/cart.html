@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Shop | Cart</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav class="navbar">
+        <div class="logo">E-Shop</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <input type="text" placeholder="Search..." class="search-bar">
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+            <a href="login.html"><i class="fa fa-user"></i></a>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= CART ================= -->
+<section class="cart-container">
+
+    <!-- CART ITEMS -->
+    <div class="cart-items">
+
+        <!-- ITEM 1 -->
+        <div class="cart-item">
+            <div>
+                <h4>Wireless Headphones</h4>
+                <p>Price: ₹1999</p>
+                <input type="number" value="1" min="1">
+            </div>
+            <div>
+                <p>Total: ₹1999</p>
+                <button class="btn" style="background:#999;">Remove</button>
+            </div>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="cart-item">
+            <div>
+                <h4>Smart Watch</h4>
+                <p>Price: ₹2999</p>
+                <input type="number" value="1" min="1">
+            </div>
+            <div>
+                <p>Total: ₹2999</p>
+                <button class="btn" style="background:#999;">Remove</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CART SUMMARY -->
+    <div class="cart-summary">
+        <h3>Order Summary</h3>
+
+        <p>Subtotal: ₹4998</p>
+        <p>Delivery: ₹0</p>
+        <hr>
+        <h4>Total: ₹4998</h4>
+
+        <a href="checkout.html" class="btn" style="display:block; margin-top:15px;">Proceed to Checkout</a>
+
+        <!-- Invoice Button -->
+        <button class="btn" style="margin-top:10px; width:100%;">View Invoice</button>
+    </div>
+
+</section>
+
+<!-- ================= INVOICE POPUP (UI ONLY) ================= -->
+<section class="invoice-popup">
+
+    <div class="invoice-box">
+        <h2>Invoice</h2>
+
+        <p><strong>Order ID:</strong> #12345</p>
+        <p><strong>Date:</strong> 20 Aug 2026</p>
+
+        <hr>
+
+        <p>Wireless Headphones - ₹1999</p>
+        <p>Smart Watch - ₹2999</p>
+
+        <hr>
+
+        <h3>Total: ₹4998</h3>
+
+        <button class="btn" style="margin-top:10px;">Close</button>
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="footer-container">
+
+        <div>
+            <h3>E-Shop</h3>
+            <p>Your one-stop online store</p>
+        </div>
+
+        <div>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Contact</h4>
+            <p>Email: support@eshop.com</p>
+            <p>Phone: +91 9876543210</p>
+        </div>
+
+    </div>
+
+    <p class="copyright">© 2026 E-Shop. All rights reserved.</p>
+</footer>
+
+
+</body>
+</html>
